@@ -1,4 +1,4 @@
-import web_browser
+import webbrowser
 
 # Define webbrowser function
 
