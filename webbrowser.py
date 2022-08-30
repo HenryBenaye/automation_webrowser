@@ -8,3 +8,8 @@ def web_browser():
 
     # Search your path to the chrome.exe
     chrome_path = 'C:/Program Files/Google/Chrome/Application/chrome.exe %s'
+
+    webbrowser.get(chrome_path).open_new(url)
+
+# Call function
+web_browser()
